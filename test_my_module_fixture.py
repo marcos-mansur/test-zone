@@ -8,6 +8,7 @@ import pytest
     1,5,3,6,8]
 )
 
+#test to the function square using input from parametrize
 def test_square_int(para_inputs):
     #When
     subject = square(para_inputs)
